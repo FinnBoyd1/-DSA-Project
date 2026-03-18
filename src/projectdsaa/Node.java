@@ -12,7 +12,7 @@ public class Node {
     private ParkingSpot spot;
     private Node next;
 
-    public Node(ParkingSpot spot, Node next) {
+    public Node(ParkingSpot spot) {
         this.spot = spot;
         this.next = next;
     }

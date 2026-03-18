@@ -53,6 +53,10 @@ public class ParkingSpot {
         return "ParkingSpot{" + "spotID=" + spotID + ", location=" + location + ", isAvaliable=" + isAvaliable + ", pricePerHour=" + pricePerHour + '}';
     }
 
+    boolean printDetails() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
     
     
 }
