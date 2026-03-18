@@ -40,7 +40,7 @@ public class ParkingLinkedList implements ParkingOperations {
 
         while(temp != null){
 
-            if(temp.getSpot().getSpotId() == id){
+            if(temp.getSpot().getSpotID() == id){
 
                 if(prev == null)
                     head = temp.getNext();

@@ -37,6 +37,10 @@ public class Vehicle {
     public String toString() {
         return "Vehicle{" + "VehicleType=" + VehicleType + ", vehicleId=" + vehicleId + '}';
     }
+
+    boolean printDetails() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
     
     
